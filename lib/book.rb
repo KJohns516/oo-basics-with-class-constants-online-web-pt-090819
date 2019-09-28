@@ -2,7 +2,7 @@ class Book
   attr_accessor :author, :page_count, :genre
   attr_reader :title
 
-  GENRES = []
+  GENRES = ['keeps track of all brands'] do
 
   def initialize(title)
     @title = title
